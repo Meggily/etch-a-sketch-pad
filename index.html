@@ -11,8 +11,8 @@
     <div class="input-container">
     
      <form>
-        <label for="grid-size">Enter desired grid size <i>(up to 100)</i> : </label>
-        <input type="text" id="grid-size" name="grid-size">
+        <label for="grid-size">Enter desired grid size <i>(up to 64)</i> : </label>
+        <input type="text" id="grid-size" size="2" name="grid-size">
         <button type="submit">Submit</button>
      </form>
 
@@ -20,9 +20,18 @@
 
     </div>
 
-    <div class="grid-div"></div>
-   
+    <input class="color-picker" type="color" >
+    <button class="erase">Erase</button>
+
+    <div class="container">
+        <div class="grid-div"></div>
+    </div>
+
+    <footer>
+        <div>Copyright &copy Meggily 2023</div>
+    </footer>
 
 <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>

@@ -1,8 +1,9 @@
 .grid-div {
     display: flex;
     flex-wrap: wrap;
-    width: 480px;
-    height: 480px;
+    width: 650px;
+    height: 650px;
+    margin-top: 10px;
     
 }
 
@@ -12,4 +13,22 @@
     width: 30px;
     /* background-color: #8fbc8f; */
     border: 1px black solid;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    margin-top: auto;
+    padding-bottom: 15px;
+    
 }
